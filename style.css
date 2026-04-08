@@ -219,7 +219,7 @@ body {
 
 .info-box {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     margin-top: 2rem;
 }
@@ -258,6 +258,16 @@ body {
     justify-content: center;
     color: white;
     font-size: 1.2rem;
+    box-shadow: var(--shadow-lg);
+    animation: float 3s ease-in-out infinite;
+}
+
+.about-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 100% 22%;
     box-shadow: var(--shadow-lg);
     animation: float 3s ease-in-out infinite;
 }
